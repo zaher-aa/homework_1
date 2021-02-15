@@ -1,0 +1,127 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#head {
+  margin-top: 56px;
+}
+
+div.parent {
+  position: relative;
+  width: 400px;
+  margin: 50px auto;
+  line-height: 1.8;
+  background-color: #eee;
+  padding: 15px 25px;
+  border: 2px solid;
+  border-color: red #0075ff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+span {
+  position: absolute;
+  display: inline-block;
+  padding: 0 12px;
+  text-align: center;
+  color: white;
+  background-color: rgb(0, 119, 255);
+}
+
+.top-left {
+  border-right: 2px solid red;
+  top: -16px;
+  left: -17px;
+}
+
+.bottom-left {
+  border-right: 2px solid red;
+  bottom: -16px;
+  left: -17px;
+}
+
+.top-right {
+  border-left: 2px solid red;
+  top: -16px;
+  right: -17px;
+}
+
+.bottom-right {
+  border-left: 2px solid red;
+  bottom: -16px;
+  right: -17px;
+}
+
+.wrapper {
+  width: fit-content;
+  margin: 20px auto;
+  margin-bottom: 20px;
+}
+
+.blue {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.black {
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.green {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.red {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 40px;
+  top: 40px;
+}
+
+.main-wrapper {
+  list-style-type: none;
+  width: 400px;
+  margin: 20px auto;
+}
+
+.sub-wrapper-html-css,
+.sub-wrapper-js {
+  background-color: #eee;
+  padding: 10px;
+  margin: 20px;
+}
+
+.sub-wrapper-html-css ol li {
+  background-color: white;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.sub-wrapper-js ul {
+  list-style-position: inside;
+  padding: 0;
+}
+
+.sub-wrapper-js ul li {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+}
